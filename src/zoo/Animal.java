@@ -13,15 +13,15 @@ public class Animal {
         this.edad = edad;
 
     }
-
+    public void cambiarEdad(int edad) {
+        this.edad = edad;
+    }
     public String getNombre() {
-        return "El nombre del animal es " + nombre;
+        return nombre;
     }
-
     public String getColor() {
-        return "El color del animal es " + color;
+        return color;
     }
-
     public int getEdad() {
         return edad;
     }

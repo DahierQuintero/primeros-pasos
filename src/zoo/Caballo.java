@@ -9,13 +9,18 @@ public class Caballo extends Animal{
         this.pasoFino = pasoFino;
     }
 
-    public void setPasoFino() {
+    public String getPasoFino() {
         if (pasoFino) {
-            System.out.println("El caballo es de paso fino");
+            return  "Es de paso fino";
         }
         else {
-            System.out.println("El caballo no es de paso fino");
+            return  "Es de paso fino";
         }
+    }
+    public String toString() {
+        return "El nombre del caballo es " + getNombre() + ". El color de " + getNombre() + " es " + getColor() + ". Tiene " +
+                getEdad() + " años. Y " + getNombre() + " " + getPasoFino();
+
     }
 
 }
