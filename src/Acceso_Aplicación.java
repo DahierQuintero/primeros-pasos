@@ -2,14 +2,14 @@ import javax.swing.*;
 public class Acceso_Aplicación {
     public static void main(String[] args) {
 
-        String clave = "katemiamor";
+        String clave = "estaesmiclave";
         String password = "";
 
-        while (clave.equals(password) == false){
+        while (!clave.equals(password)){
 
             password = JOptionPane.showInputDialog("Ingrese su contraseña, por favor");
 
-            if (clave.equals(password) == false){
+            if (!clave.equals(password)){
 
                 System.out.println("Contraseña incorrecta, intenta nuevamente");
             }
